@@ -23,7 +23,7 @@ public class ImageViewConvertActivity extends Activity implements View.OnClickLi
         btNextImage.setOnClickListener(this);
         btPrevImage = (Button) findViewById(R.id.btPrevImage);
         btPrevImage.setOnClickListener(this);
-        btPrevImage.setVisibility(View.INVISIBLE);
+//        btPrevImage.setVisibility(View.INVISIBLE);
     }
 
     @Override
@@ -31,13 +31,13 @@ public class ImageViewConvertActivity extends Activity implements View.OnClickLi
         switch (v.getId()) {
             case R.id.btPrevImage:
                 imageView.setImageResource(R.drawable.jellyfish);
-                btPrevImage.setVisibility(View.INVISIBLE);
-                btNextImage.setVisibility(View.VISIBLE);
+//                btPrevImage.setVisibility(View.INVISIBLE);
+//                btNextImage.setVisibility(View.VISIBLE);
                 break;
             case R.id.btNextImage:
                 imageView.setImageResource(R.drawable.tulips);
-                btPrevImage.setVisibility(View.VISIBLE);
-                btNextImage.setVisibility(View.INVISIBLE);
+//                btPrevImage.setVisibility(View.VISIBLE);
+//                btNextImage.setVisibility(View.INVISIBLE);
                 break;
         }
     }

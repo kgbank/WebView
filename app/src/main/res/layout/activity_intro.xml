@@ -33,4 +33,11 @@
         android:layout_margin="10dp"
         android:id="@+id/btListView"/>
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="그리드이미지뷰"
+        android:layout_margin="10dp"
+        android:id="@+id/btGridView"/>
+
 </LinearLayout>
