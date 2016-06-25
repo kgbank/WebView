@@ -14,6 +14,8 @@ public class IntroActivity extends Activity implements View.OnClickListener{
         setContentView(R.layout.activity_intro);
         findViewById(R.id.btWebView).setOnClickListener(this);
         findViewById(R.id.btImageView).setOnClickListener(this);
+        findViewById(R.id.btImageConvert).setOnClickListener(this);
+        findViewById(R.id.btListView).setOnClickListener(this);
     }
 
     @Override
@@ -24,6 +26,12 @@ public class IntroActivity extends Activity implements View.OnClickListener{
                 break;
             case R.id.btImageView:
                 startActivity(new Intent(this, ImageViewActivity.class));
+                break;
+            case R.id.btImageConvert:
+                startActivity(new Intent(this, ImageViewConvertActivity.class));
+                break;
+            case R.id.btListView:
+                startActivity(new Intent(this, ImageListActivity.class));
                 break;
         }
     }

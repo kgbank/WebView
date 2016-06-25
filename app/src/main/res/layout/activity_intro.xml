@@ -19,4 +19,18 @@
         android:layout_margin="10dp"
         android:id="@+id/btImageView"/>
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="전환이미지뷰"
+        android:layout_margin="10dp"
+        android:id="@+id/btImageConvert"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="리스트이미지뷰"
+        android:layout_margin="10dp"
+        android:id="@+id/btListView"/>
+
 </LinearLayout>
